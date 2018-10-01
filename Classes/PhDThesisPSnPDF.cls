@@ -158,9 +158,9 @@
 }
 
 % ****************** Chapter Mode - To print only selected chapters ************
-\newif \ifdefineChapter\defineChapterfalse %To enable Separate abstract
+\newif \ifdefineChapter\defineChaptertrue %To enable Separate abstract
 
-\newif\ifPHD@chapter\PHD@chapterfalse % Enable Separate Abstract
+\newif\ifPHD@chapter\PHD@chaptertrue % Enable Separate Abstract
 \DeclareOption{chapter}{
   \PHD@chaptertrue
   \ClassWarning{PhDThesisPSnPDF}{You have chosen an option that generates only 
